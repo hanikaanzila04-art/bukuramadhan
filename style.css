@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #cdc8c8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background: #238b50;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: rgb(247, 243, 243);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.progress-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 20px;
+    background: #eeeded;
+    margin: 10px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#progress {
+    height: 100%;
+    width: 0%;
+    background: #24844e;
+    transition: 0.5s;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 5px;
+}
